@@ -10,7 +10,17 @@ public class Employee
 	private Date DOB;
 	private String Gender;
 	private String Qualification;
-	
+	private String Phone;
+	private String Address;
+	private String Designation;
+	private Date DateOfJoining;
+	private String Manager;
+	private String WorkingOnProject;
+	private Date ProjectFromDate;
+	private Date ToDate;
+	private String SkillSet;
+	private String username;
+	private String password;
 	public String getEmployeeId() {
 		return EmployeeId;
 	}
@@ -46,5 +56,70 @@ public class Employee
 	public void setQualification(String qualification) {
 		Qualification = qualification;
 	}
-	
+	public String getPhone() {
+		return Phone;
+	}
+	public void setPhone(String phone) {
+		Phone = phone;
+	}
+	public String getAddress() {
+		return Address;
+	}
+	public void setAddress(String address) {
+		Address = address;
+	}
+	public String getDesignation() {
+		return Designation;
+	}
+	public void setDesignation(String designation) {
+		Designation = designation;
+	}
+	public Date getDateOfJoining() {
+		return DateOfJoining;
+	}
+	public void setDateOfJoining(Date date) {
+		DateOfJoining = date;
+	}
+	public String getManager() {
+		return Manager;
+	}
+	public void setManager(String manager) {
+		Manager = manager;
+	}
+	public String getWorkingOnProject() {
+		return WorkingOnProject;
+	}
+	public void setWorkingOnProject(String workingOnProject) {
+		WorkingOnProject = workingOnProject;
+	}
+	public Date getProjectFromDate() {
+		return ProjectFromDate;
+	}
+	public void setProjectFromDate(Date date) {
+		ProjectFromDate = date;
+	}
+	public Date getToDate() {
+		return ToDate;
+	}
+	public void setToDate(Date toDate) {
+		ToDate = toDate;
+	}
+	public String getSkillSet() {
+		return SkillSet;
+	}
+	public void setSkillSet(String skillSet) {
+		SkillSet = skillSet;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 }
